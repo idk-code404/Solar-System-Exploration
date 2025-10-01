@@ -22,7 +22,7 @@ header {
   background: #111;
 }
 
-img, video {
+img {
   max-width: 100%;
   margin-top: 1rem;
 }
