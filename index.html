@@ -7,26 +7,27 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Solar System Explorer</h1>
-    <input type="search" id="search" placeholder="Search celestial body...">
-  </header>
+<header>
+  <h1>Solar System Explorer</h1>
+  <input type="search" id="search" placeholder="Search celestial body...">
+</header>
 
-  <main>
-    <div id="solar-system-container"></div>
-    <div id="info-panel">
-      <h2 id="body-name">Select a planet</h2>
-      <p id="body-description"></p>
-      <img id="body-image" src="" alt="Planet Image">
-      <video id="body-video" controls src="" hidden></video>
-    </div>
-  </main>
+<main>
+  <div id="solar-system-container"></div>
+  <div id="info-panel">
+    <h2 id="body-name">Select a celestial body</h2>
+    <p id="body-description"></p>
+    <img id="body-image" src="" alt="Image" hidden>
+  </div>
+</main>
 
-  <footer>
-    <p>Data & media from NASA</p>
-  </footer>
+<footer>
+  <p>Data & media from NASA</p>
+</footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
-  <script src="js/main.js"></script>
+<!-- Three.js -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.153.0/examples/js/controls/OrbitControls.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
